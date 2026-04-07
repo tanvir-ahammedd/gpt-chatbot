@@ -135,3 +135,22 @@ The project follows a clean, modular structure strictly isolating domains:
 - [x] **Health Metrics**: Real-time status reporting of LLM and DB status.
 - [x] **Modular Structure**: Clean architecture following production standards.
 
+---
+
+## 🧑‍💻 Author
+
+Name: Tanvir Ahammed
+
+Email: tanvir7535@gmail.com
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📬 Contact
+
+If you’d like to connect or have any questions, feel free to reach out.
+
+
+Created with ❤️ and dedication
