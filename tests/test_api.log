@@ -1,0 +1,21 @@
+Rate Limit Test (RATE_LIMIT_RPM=5)
+
+Sending 15 rapid requests to POST /chat...
+
+Request  1: [OK ] 200 -> "It looks like we've started with a friendly greeting. Is the..."
+Request  2: [OK ] 200 -> "You're enjoying the repetition. It seems like we're having a..."
+Request  3: [OK ] 200 -> "Déjà vu. It seems like we're back to a familiar greeting. To..."
+Request  4: [OK ] 200 -> "You've repeated yourself. I think we've established the gree..."
+Request  5: [OK ] 200 -> "I think we've reached a loop. It seems like we're stuck on t..."
+Request  6: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request  7: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request  8: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request  9: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request 10: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request 11: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request 12: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request 13: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request 14: [429] TOO MANY REQUESTS <-- Rate limit hit!
+Request 15: [429] TOO MANY REQUESTS <-- Rate limit hit!
+
+Test complete.
