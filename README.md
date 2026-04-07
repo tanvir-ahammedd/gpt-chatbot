@@ -124,10 +124,6 @@ The project follows a clean, modular structure strictly isolating domains:
 - **Context Management**: On every request, the backend fetches the ordered history for the provided `session_id`. To prevent token exhaustion and control costs, the context is truncated dynamically via the `MAX_MESSAGES_PER_SESSION` configuration variable before being formatted for the LLM. 
 - **Rate Limiting Protection**: `slowapi` enforces limits per client IP via ASGI middleware, returning `429 Too Many Requests` early in the request pipeline if boundaries are crossed.
 
----
-
-## 🎥 Video Demonstration
-[Link to your Video Demo here]
 
 ---
 
